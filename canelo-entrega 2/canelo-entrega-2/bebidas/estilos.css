@@ -1,0 +1,178 @@
+* {
+  margin: 0;
+  padding: 0%;
+}
+
+          /*Aca comienza index.html*/
+
+
+.imguno{
+  width: 1500px; /* Ancho de la imagen */
+  height: 500px; /* Alto de la imagen */
+  border-radius: 10px; /* Esquinas redondeadas */
+  box-shadow: 0 0 10px rgba(5, 10, 10, 0.5); /* Sombra */
+  margin: 10px auto; /* Margen */
+  display: block; /* Display block para centrar */
+  animation: fade-in 3s;
+  border: 3px solid black;
+}
+.titulo {
+  font-size: 80px; /*tamanode la fuente*/
+  font-weight: 400; /*estableser el grosor de la fuente*/
+  color: black; 
+  text-align: center;
+  margin-bottom: 40px;
+  font-style: italic; /*se utiliza para darle estilo a la fuente */
+  border-bottom: 10px solid #0f0e0e;
+  animation: fade-in 3s
+} 
+@keyframes fade-in {
+  from {
+    opacity: 15;
+  }
+  to {
+    opacity: 10;
+  }
+}
+.contenedor {
+  font-size: 25px;
+  font-style: italic;
+  text-align: center;
+  width: 300px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 10px;
+  box-shadow: 5 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+input[type="number"] {
+  width: 100%;
+  height: 34px;
+  padding: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.boton {
+  width: 100%;
+  height: 40px;
+  background-color: #636363;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.boton:hover {
+  width: 50%;
+  background-color:black;
+} 
+
+footer {
+  background-color: #FDECDC;
+  padding: 40px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-around;
+  gap:1px;
+}
+.col-md-6 {
+  width: 40%;
+}
+
+.imagen-footer {
+  width: 100%;
+  height: 200px;
+  object-fit:fill;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin: 20px;
+  animation: fade-in 6s;
+  border: 3px solid black;
+}
+
+.titulouno {
+  font-size: 70px;
+  font-weight: 400;
+  color: black;
+  text-align: center;
+  margin-bottom: 40px;
+  font-style: italic;
+  animation: fade-in 6s;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-bottom: 10px solid #090808;
+  }
+                  /*Aca termina index.html*/
+
+
+                  /*Aca comienza HTML.BEBIDAS*/
+
+               
+.tarjetas {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+                  
+.tarjeta {
+ background-color: #000000;
+ width: 250px;
+ height: 350px;
+ margin: 50px;
+ border: 1px solid #ddd;
+ border-radius: 10px;
+ box-shadow: 0 0 10px whitesmoke (0, 0, 0, 0.1);
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ animation: fade-in 2s;
+}
+ 
+.Imagenb{
+width: 20px;
+height: 170px;
+margin: 10px;
+border-radius: 10px;
+border: 2px solid #ddd;
+}
+
+.agregar-carrito{
+font-size: 110%;
+color:green;
+text-align: center;
+background-color: wheat;
+border-radius: 25px;
+}
+
+.tarjeta img {
+width: 150px;
+}                   
+.h2{
+color: green;
+}
+.parrafo{
+font-style:italic;
+text-align: center;
+color: wheat;
+}
+.parrafouno{
+color: whitesmoke;
+}
+.footer{
+background-color:#38393B;
+}
